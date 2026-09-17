@@ -71,7 +71,7 @@ function App() {
           </div>
 
           <div className="member">
-            <img src={cowImg} alt="Rocco" />
+            <img src={catImg} alt="Rocco" />
             <p>Destefano, Rocco</p>
           </div>
 
@@ -81,7 +81,7 @@ function App() {
           </div>
 
           <div className="member">
-            <img src={catImg} alt="Addie" />
+            <img src={cowImg} alt="Addie" />
             <p>Kucey, Addie</p>
           </div>
 
