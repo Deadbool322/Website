@@ -67,6 +67,7 @@ function App() {
 
           <div className="member">
             <img src={goatImg} alt="Calvin" />
+            style={{ objectPosition: 'center top' }}
             <p>Dang, Calvin</p>
           </div>
 
