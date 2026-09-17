@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,7 +19,7 @@ function App() {
         <div>
           <h2>CISC 322 - Software Architecture - Group 3</h2>
           <h1>DeadBool</h1> 
-          <p>Professor: Bram Adams</p><p>Open Source Project: WizTerm</p>
+          <p>Professor: Bram Adams</p><p>Open Source Project: <a href="https://github.com/wizterm/wizterm" target="_blank">WizTerm</a></p>
         </div>
 
       </section>
