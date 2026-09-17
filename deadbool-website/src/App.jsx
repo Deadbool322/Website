@@ -19,7 +19,8 @@ function App() {
         <div>
           <h2>CISC 322 - Software Architecture - Group 3</h2>
           <h1>DeadBool</h1> 
-          <p>Professor: Bram Adams</p><p>Open Source Project: <a href="https://wezterm.org" target="_blank">WizTerm</a></p>
+          <p>Professor: Bram Adams</p>
+          <p>Open Source Project:{' '}<a href="https://wezterm.org/" target="_blank" rel="noopener noreferrer">WezTerm</a></p>
         </div>
 
       </section>
