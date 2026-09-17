@@ -208,10 +208,10 @@
 }
 
 .member img {
-  width: 35px;
-  height: 35px;
-  object-fit: contain;
-  object-position: center top;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
 }
 
