@@ -66,8 +66,7 @@ function App() {
           </div>
 
           <div className="member">
-            <img src={goatImg} alt="Calvin" />
-            style={{ objectPosition: 'center top' }}
+            <img src={goatImg} alt="Calvin"/>
             <p>Dang, Calvin</p>
           </div>
 
