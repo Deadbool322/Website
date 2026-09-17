@@ -214,8 +214,9 @@
   object-position: center;
   border-radius: 50%;
 }
-.group-member img.calvin {
+.member img.calvin {
   object-fit: contain;
+  padding: 3px
 }
 
 .member p {
