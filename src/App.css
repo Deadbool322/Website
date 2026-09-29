@@ -219,3 +219,8 @@
 .member p {
   margin: 0;
 }
+
+.role {
+  font-size: 14px;
+  margin-left: 5px;
+}
