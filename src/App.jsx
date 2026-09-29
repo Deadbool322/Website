@@ -62,13 +62,13 @@ function App() {
           </div>
 
           <div className="member">
-          <img src={goatImg} alt="Calvin (Presenter)" className="calvin" />
-          <p>Dang, Calvin</p>
-          </div>
+            <img src={goatImg} alt="Calvin" className="calvin" />
+            <p>Dang, Calvin <span className="role">(Presenter)</span></p>
+            </div>
 
           <div className="member">
-            <img src={catImg} alt="Rocco (Presenter)" />
-            <p>Destefano, Rocco</p>
+            <img src={catImg} alt="Rocco" />
+            <p>Destefano, Rocco <span className="role">(Presenter)</span></p>
           </div>
 
           <div className="member">
@@ -78,7 +78,7 @@ function App() {
 
           <div className="member">
             <img src={cowImg} alt="Addie (Group Leader)" />
-            <p>Kucey, Addie</p>
+            <p>Kucey, Addie <span className="role">(Group Leader)</span></p>
           </div>
 
           <div className="member">
