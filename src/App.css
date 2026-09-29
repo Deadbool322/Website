@@ -214,10 +214,7 @@
   object-position: center;
   border-radius: 50%;
 }
-.member img.calvin {
-  object-fit: contain;
-  padding: 3px
-}
+
 
 .member p {
   margin: 0;
