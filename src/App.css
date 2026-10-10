@@ -224,3 +224,56 @@
   font-size: 14px;
   margin-left: 5px;
 }
+.reports {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.report-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.report-group {
+    flex: 1;
+    min-width: 220px;
+}
+
+.report-btn {
+    display: block;
+    padding: 20px 25px;
+    background-color: #8B1E2D;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.report-btn::-webkit-details-marker {
+    display: none;
+}
+
+.report-btn:hover {
+    background-color: #651522;
+}
+
+.report-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+}
+
+.report-links a {
+    color: #8B1E2D;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.report-links a:hover {
+    color: #651522;
+}
