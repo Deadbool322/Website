@@ -84,7 +84,7 @@ function App() {
 
     <details className="report-group">
       <summary className="report-btn">
-        Final Report
+        Architectural Enhancement
       </summary>
       <div className="report-links">
         <a href="A3_REPORT_LINK" target="_blank">Report</a>
