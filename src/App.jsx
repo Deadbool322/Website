@@ -52,7 +52,46 @@ function App() {
             implementation plans
           </p>
         </div>
+        <section className="reports">
+  <h2>Project Reports</h2>
 
+  <div className="report-buttons">
+
+    <details className="report-group">
+      <summary className="report-btn">
+        Conceptual Architecture
+      </summary>
+      <div className="report-links">
+        <a href={`${import.meta.env.BASE_URL}CISC_322_A1.pdf`}target="_blank">Report</a>
+        <a href="https://docs.google.com/presentation/d/1UH_uFSC2WF7We6Qjl-Lno7vedcVnZDtfgTR-HsPwVgs/edit?usp=sharing" target="_blank">Slides</a>
+        <a href="https://www.youtube.com/watch?v=OjZ6GRgYZac" target="_blank">Video</a>
+      </div>
+    </details>
+
+    <details className="report-group">
+      <summary className="report-btn">
+        Concrete Architecture
+      </summary>
+      <div className="report-links">
+        <a href="A2_REPORT_LINK" target="_blank">Report</a>
+        <a href="A2_SLIDES_LINK" target="_blank">Slides</a>
+        <a href="A2_VIDEO_LINK" target="_blank">Video</a>
+      </div>
+    </details>
+
+    <details className="report-group">
+      <summary className="report-btn">
+        Final Report
+      </summary>
+      <div className="report-links">
+        <a href="A3_REPORT_LINK" target="_blank">Report</a>
+        <a href="A3_SLIDES_LINK" target="_blank">Slides</a>
+        <a href="A3_VIDEO_LINK" target="_blank">Video</a>
+      </div>
+    </details>
+
+  </div>
+</section>
         <div id="social">
           <h2>Group Members</h2>
 
@@ -89,46 +128,7 @@ function App() {
       </section>
 
       <div className="ticks"></div>
-      <section className="reports">
-  <h2>Project Reports</h2>
-
-  <div className="report-buttons">
-
-    <details className="report-group">
-      <summary className="report-btn">
-        Conceptual Architecture
-      </summary>
-      <div className="report-links">
-        <a href="A1_REPORT_LINK" target="_blank">Report</a>
-        <a href="https://docs.google.com/presentation/d/1UH_uFSC2WF7We6Qjl-Lno7vedcVnZDtfgTR-HsPwVgs/edit?usp=sharing" target="_blank">Slides</a>
-        <a href="A1_VIDEO_LINK" target="_blank">Video</a>
-      </div>
-    </details>
-
-    <details className="report-group">
-      <summary className="report-btn">
-        Concrete Architecture
-      </summary>
-      <div className="report-links">
-        <a href="A2_REPORT_LINK" target="_blank">Report</a>
-        <a href="A2_SLIDES_LINK" target="_blank">Slides</a>
-        <a href="A2_VIDEO_LINK" target="_blank">Video</a>
-      </div>
-    </details>
-
-    <details className="report-group">
-      <summary className="report-btn">
-        Final Report
-      </summary>
-      <div className="report-links">
-        <a href="A3_REPORT_LINK" target="_blank">Report</a>
-        <a href="A3_SLIDES_LINK" target="_blank">Slides</a>
-        <a href="A3_VIDEO_LINK" target="_blank">Video</a>
-      </div>
-    </details>
-
-  </div>
-</section>
+      
 
 
       <section id="spacer"></section>
