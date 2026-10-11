@@ -90,6 +90,7 @@
 
 #next-steps {
   display: flex;
+  flex-direction: column;  
   border-top: 1px solid var(--border);
   text-align: left;
 
@@ -276,4 +277,84 @@
 
 .report-links a:hover {
     color: #651522;
+}
+
+/* MAIN PAGE LAYOUT */
+#next-steps.page-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 0;
+}
+
+/* EACH SECTION GETS ITS OWN FULL ROW */
+#next-steps.page-sections > #docs,
+#next-steps.page-sections > .reports,
+#next-steps.page-sections > #social {
+    width: 100%;
+    max-width: none;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+}
+
+/* PROJECT INFORMATION */
+#docs {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* PROJECT REPORTS */
+.reports {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+/* KEEP ALL THREE BUTTONS IN ONE ROW */
+.report-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.report-group {
+    min-width: 0;
+}
+
+/* MAKE ALL THREE BUTTONS THE SAME HEIGHT */
+.report-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #8B1E2D;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+}
+
+/* GROUP MEMBERS */
+#social {
+    width: 100%;
+    text-align: left;
+}
+
+#social > h2 {
+    text-align: center;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 700px) {
+    .report-buttons {
+        grid-template-columns: 1fr;
+    }
 }
