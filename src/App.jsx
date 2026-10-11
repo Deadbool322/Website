@@ -64,7 +64,7 @@ function App() {
 
         <details className="report-group">
           <summary className="report-btn">
-            Conceptual Architecture
+            A1: Conceptual Architecture
           </summary>
           <div className="report-links">
             <a
@@ -93,7 +93,7 @@ function App() {
 
         <details className="report-group">
           <summary className="report-btn">
-            Concrete Architecture
+            A2: Concrete Architecture
           </summary>
           <div className="report-links">
             <a href="A2_REPORT_LINK" target="_blank" rel="noopener noreferrer">
@@ -110,7 +110,7 @@ function App() {
 
         <details className="report-group">
           <summary className="report-btn">
-            Architectural Enhancement
+            A3: Architectural Enhancement
           </summary>
           <div className="report-links">
             <a href="A3_REPORT_LINK" target="_blank" rel="noopener noreferrer">
