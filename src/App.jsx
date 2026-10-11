@@ -62,7 +62,9 @@ function App() {
         Conceptual Architecture
       </summary>
       <div className="report-links">
-        <a href={`${import.meta.env.BASE_URL}CISC_322_A1.pdf`}target="_blank">Report</a>
+        <a href={`${import.meta.env.BASE_URL}CISC_322_A1.pdf`} target="_blank" rel="noopener noreferrer">
+          Report
+        </a>
         <a href="https://docs.google.com/presentation/d/1UH_uFSC2WF7We6Qjl-Lno7vedcVnZDtfgTR-HsPwVgs/edit?usp=sharing" target="_blank">Slides</a>
         <a href="https://www.youtube.com/watch?v=OjZ6GRgYZac" target="_blank">Video</a>
       </div>
